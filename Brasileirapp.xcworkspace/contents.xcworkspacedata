@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "App">
+      <FileRef
+         location = "group:Modules/Brasileirapp/Brasileirapp.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "NanoFeatures">
+      <FileRef
+         location = "group:Modules/NanoFeatures/ListChampionship/ListChampionship.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "ServiceSDK">
+      <FileRef
+         location = "group:Modules/ServiceSDK/ServiceSDK/ServiceSDK.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "DesignSystem">
+      <FileRef
+         location = "group:Modules/DesignSystem/BrasileiKIT/BrasileiKIT.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>
