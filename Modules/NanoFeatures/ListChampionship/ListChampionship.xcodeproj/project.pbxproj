@@ -10,6 +10,10 @@
 		79101BA624F2A59800B4046A /* ListChampionship.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79101B9C24F2A59800B4046A /* ListChampionship.framework */; };
 		79101BAB24F2A59800B4046A /* ListChampionshipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79101BAA24F2A59800B4046A /* ListChampionshipTests.swift */; };
 		79101BAD24F2A59800B4046A /* ListChampionship.h in Headers */ = {isa = PBXBuildFile; fileRef = 79101B9F24F2A59800B4046A /* ListChampionship.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79101C0024F2A88F00B4046A /* BrasileiKIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79101BFF24F2A88F00B4046A /* BrasileiKIT.framework */; };
+		79101C0124F2A88F00B4046A /* BrasileiKIT.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79101BFF24F2A88F00B4046A /* BrasileiKIT.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		79101C0424F2A8A700B4046A /* ServiceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79101C0324F2A8A700B4046A /* ServiceSDK.framework */; };
+		79101C0524F2A8A700B4046A /* ServiceSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79101C0324F2A8A700B4046A /* ServiceSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,6 +26,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		79101C0224F2A88F00B4046A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				79101C0124F2A88F00B4046A /* BrasileiKIT.framework in Embed Frameworks */,
+				79101C0524F2A8A700B4046A /* ServiceSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		79101B9C24F2A59800B4046A /* ListChampionship.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ListChampionship.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79101B9F24F2A59800B4046A /* ListChampionship.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListChampionship.h; sourceTree = "<group>"; };
@@ -29,6 +48,8 @@
 		79101BA524F2A59800B4046A /* ListChampionshipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListChampionshipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79101BAA24F2A59800B4046A /* ListChampionshipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListChampionshipTests.swift; sourceTree = "<group>"; };
 		79101BAC24F2A59800B4046A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79101BFF24F2A88F00B4046A /* BrasileiKIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BrasileiKIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		79101C0324F2A8A700B4046A /* ServiceSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ServiceSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79101C0024F2A88F00B4046A /* BrasileiKIT.framework in Frameworks */,
+				79101C0424F2A8A700B4046A /* ServiceSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +79,7 @@
 				79101B9E24F2A59800B4046A /* ListChampionship */,
 				79101BA924F2A59800B4046A /* ListChampionshipTests */,
 				79101B9D24F2A59800B4046A /* Products */,
+				79101BFE24F2A88F00B4046A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +110,15 @@
 			path = ListChampionshipTests;
 			sourceTree = "<group>";
 		};
+		79101BFE24F2A88F00B4046A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79101C0324F2A8A700B4046A /* ServiceSDK.framework */,
+				79101BFF24F2A88F00B4046A /* BrasileiKIT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -108,6 +141,7 @@
 				79101B9824F2A59800B4046A /* Sources */,
 				79101B9924F2A59800B4046A /* Frameworks */,
 				79101B9A24F2A59800B4046A /* Resources */,
+				79101C0224F2A88F00B4046A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

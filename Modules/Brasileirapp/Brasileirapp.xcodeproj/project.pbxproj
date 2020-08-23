@@ -14,6 +14,8 @@
 		79101B5624F2A47900B4046A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79101B5524F2A47900B4046A /* Preview Assets.xcassets */; };
 		79101B5924F2A47900B4046A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79101B5724F2A47900B4046A /* LaunchScreen.storyboard */; };
 		79101B6424F2A47900B4046A /* BrasileirappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79101B6324F2A47900B4046A /* BrasileirappTests.swift */; };
+		79101C0824F2A8B100B4046A /* ListChampionship.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79101C0724F2A8B100B4046A /* ListChampionship.framework */; };
+		79101C0924F2A8B100B4046A /* ListChampionship.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 79101C0724F2A8B100B4046A /* ListChampionship.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +27,20 @@
 			remoteInfo = Brasileirapp;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79101C0A24F2A8B100B4046A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				79101C0924F2A8B100B4046A /* ListChampionship.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		79101B4924F2A47800B4046A /* Brasileirapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brasileirapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +54,7 @@
 		79101B5F24F2A47900B4046A /* BrasileirappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrasileirappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79101B6324F2A47900B4046A /* BrasileirappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrasileirappTests.swift; sourceTree = "<group>"; };
 		79101B6524F2A47900B4046A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79101C0724F2A8B100B4046A /* ListChampionship.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ListChampionship.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79101C0824F2A8B100B4046A /* ListChampionship.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +82,7 @@
 				79101B4B24F2A47800B4046A /* Brasileirapp */,
 				79101B6224F2A47900B4046A /* BrasileirappTests */,
 				79101B4A24F2A47800B4046A /* Products */,
+				79101C0624F2A8B100B4046A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +126,14 @@
 			path = BrasileirappTests;
 			sourceTree = "<group>";
 		};
+		79101C0624F2A8B100B4046A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79101C0724F2A8B100B4046A /* ListChampionship.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,6 +144,7 @@
 				79101B4524F2A47800B4046A /* Sources */,
 				79101B4624F2A47800B4046A /* Frameworks */,
 				79101B4724F2A47800B4046A /* Resources */,
+				79101C0A24F2A8B100B4046A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
