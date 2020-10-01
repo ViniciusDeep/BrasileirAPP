@@ -7,3 +7,4 @@ TO-DO
 - Criar lista de times
 - Trazer notícias dos times
 - Trazer lista
+- mostrar estadios 
